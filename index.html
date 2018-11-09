@@ -15,12 +15,12 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
-        <script src="homepage.js"></script>
+    <script src="homepage.js"></script>
 </head>
 
 <body>
     <script>
-                </script>
+    </script>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
 
@@ -41,9 +41,9 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <!-- <li>
                         <a href="portfolio.html">portfolio</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="activePage" href="#">about andrew
                         </a>
@@ -134,7 +134,12 @@
         </div>
         <div class="row work-row">
             <div class="col-sm-6 work-col">
-                <div class="work-image img1"></div>
+                <div href="https://protected-cove-71590.herokuapp.com/" id="myBtn" class="videoDiv">
+                    <video class="myBtn work-image printPort" muted loop id="myVideo">
+                        <source src="fomo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
                 <h4>fomo</h4>
                 <p>This is a prototype of an events app. User's can create events, add interests and discover new
                     events based upon those interests. <br> Technology used includes React.Js, MongoDB, Passport,
@@ -144,7 +149,7 @@
             <div class="col-sm-6 work-col">
                 <div href="andrewKeohanePrintPortfolio.pdf" id="myBtn" class="videoDiv">
                     <video class="myBtn work-image printPort" muted loop id="myVideo">
-                        <source src="print.mp4" type="video/mp4">
+                        <source src="print1.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
@@ -154,13 +159,13 @@
         </div>
         <div class="row work-row">
             <div class="col-sm-6 work-col">
-                <div href="https://youtu.be/MNyUWi_womc"id="myBtn" class="videoDiv">
+                <div href="https://youtu.be/MNyUWi_womc" id="myBtn" class="videoDiv">
                     <video class="myBtn work-image" muted loop id="myVideo">
                         <source src="brawl.mp4" type="video/mp4">
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
-                <h4 >old fashioned meat brawl</h4>
+                <h4>old fashioned meat brawl</h4>
                 <p>The premise for this new-product campaign to create a unique story based upon the outlandish names
                     of the pizza flavors. Our work was awareded with a Student Nebraska Addy's for Gold Video and Best
                     Creative as well as Best Creative at the National student Advertising Competition.</p>
@@ -172,19 +177,22 @@
                         Your browser does not support HTML5 video.
                     </video>
                 </div>
-                <h4>old fashioned meat brawl</h4>
-                <p>The premise for this new-product campaign to create a unique story based upon the outlandish names
-                    of the pizza flavors. Our work was awareded with a Student Nebraska Addy's for Gold Video and Best
-                    Creative as well as Best Creative at the National student Advertising Competition.</p>
+                <h4>win your day</h4>
+                <p>Life is full of big and little wins that come
+                    in all shapes and sizes. These moments
+                    make life beautiful in the simplest of ways.
+                    This video portrays the Mary Kay IBC
+                    as a valued friend and supporter of the
+                    customer, helping her win her day.</p>
             </div>
         </div>
 
         <div class="row hero-bottom">
             <div class="col-sm-8 col-sm-offset-2">
                 <div class="contactDiv">
-                    <h2>Contact:</h2>
-                    <h3>design@andrewkeohane.com</h3>
-                    <h3>andrewkeohane@hello.com</h3>
+                    <h4>Do you have a project that you need help with? <br> Are you an awesome company looking to add a talented, driven professional to your roser? <br> Do you need a reccomendation on pizza? </h4>
+                    <br>
+                    <h3 id="email">design@andrewkeohane.com</h3>
                 </div>
             </div>
         </div>

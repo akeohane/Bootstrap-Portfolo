@@ -79,7 +79,7 @@ body {
 
 .skills1 {
     font-family: "gotham";
-    font-weight: lighter;
+    /* font-weight: lighter; */
     text-align: center;
 }
 
@@ -118,12 +118,12 @@ body {
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11259317.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/sgFmMds9/headshot1.jpg");
     /* Set a specific height */
     height: 30%;
     min-height: 650px;
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position: center - 75px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -274,6 +274,11 @@ body {
 form {
     padding-left: 2%;
     margin-bottom: 10%;
+}
+
+#email{
+    font-family: "gotham";
+    font-weight: bolder
 }
 
 /* @media only screen and (max-width: 600px) {
