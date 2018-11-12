@@ -36,12 +36,12 @@ body {
 
 .contactDiv {
     margin-top: 10vh;
-    margin-left: 3%
+    margin-left: 10%;
 }
 
 #contactDiv {
     margin-top: 10vh;
-    margin-left: 3%
+
 }
 
 .navbar.navbar-default {
@@ -106,6 +106,7 @@ body {
 
 #questions {
     font-weight: 600;
+    font-size: 16px;
 }
 
 .img1 {
@@ -298,7 +299,8 @@ form {
 
 #email{
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder
+    font-weight: bolder;
+    font-size: 28px;
 }
 
 /* @media only screen and (max-width: 600px) {
